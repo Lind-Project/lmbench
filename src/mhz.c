@@ -423,7 +423,7 @@ print_data(double mhz, result_t* data)
 	names[7] = name_8();
 	names[8] = name_9();
 
-	printf("/* \"%s\", \"%s\", \"%s\", %d, %.0f, %d, %f, %f */\n", 
+	printf("/* \"%s\", \"%s\", \"%s\", %d, %.0f, %d, %f, %lld */\n", 
 	       CPU_name, uname, email, speed, 
 	       mhz, get_enough(0), l_overhead(), t_overhead());
 	printf("result_t* data[] = { \n");

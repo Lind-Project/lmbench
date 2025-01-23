@@ -1,5 +1,11 @@
 README for lmbench 2alpha8 net release.
 
+To compile all the tests, you should run:
+
+	cd src && make lmbench
+
+Compiled binaries are stored in bin/<your-os-type>/.
+
 To run the benchmark, you should be able to say:
 
 	cd src

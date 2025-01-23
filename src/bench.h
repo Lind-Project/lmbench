@@ -273,6 +273,8 @@ extern void benchmp(benchmp_f initialize,
 		    void* cookie
 	);
 
+extern void lmbench_usage(int argc, char *argv[], char* usage);
+
 /* 
  * These are used by weird benchmarks which cannot return, such as page
  * protection fault handling.  See lat_sig.c for sample usage.
