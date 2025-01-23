@@ -1,6 +1,8 @@
 #ifndef _LIB_DEBUG_H
 #define _LIB_DEBUG_H
 
+#include <math.h>
+
 void	print_results(int details);
 void	bw_quartile(uint64 bytes);
 void	nano_quartile(uint64 n);
